@@ -71,6 +71,9 @@
     <ClCompile Include="GeneratedFiles\Release\moc_MagnifyWidget.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
+    <ClCompile Include="GazeButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="maggiepc.h">
@@ -86,6 +89,12 @@
       <Filter>Header Files</Filter>
     </CustomBuild>
     <CustomBuild Include="MagnifyWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="IGazeWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GazeButton.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
   </ItemGroup>
